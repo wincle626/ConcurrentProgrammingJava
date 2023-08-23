@@ -1,8 +1,10 @@
 package mutex3;
 
 public class MutexTest3 {
-    public static int c1 = 1;
-    public static int c2 = 1;
+//    public static int c1 = 1;
+//    public static int c2 = 1;
+    public static volatile int c1 = 1;
+    public static volatile int c2 = 1;
     public static void run() {
         Thread p1 = new MutexTest3P1();
         Thread p2 = new MutexTest3P2();

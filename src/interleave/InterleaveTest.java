@@ -11,5 +11,6 @@ public class InterleaveTest {
         // but run() method can be called many times
         p1.start();
         p2.start();
+        System.out.println("Final c1="+c1+", c2="+c2);
     }
 }

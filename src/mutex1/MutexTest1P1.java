@@ -11,7 +11,7 @@ public class MutexTest1P1 extends Thread{
                 System.out.println("Critical Section 1, turn=" + MutexTest1.turn);
             }
             MutexTest1.turn = 2;
-            System.out.println("Exit Critical Section 1, turn=" + MutexTest1.turn);
+            System.out.println("Exit loop, turn=" + MutexTest1.turn);
         }
     }
 }
