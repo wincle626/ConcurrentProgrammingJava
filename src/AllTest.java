@@ -5,9 +5,10 @@ import mutex2.*;
 import mutex3.*;
 import mutex4.*;
 import semaphore1.*;
+import semaphore2.*;
 
 public class AllTest {
-    public static int index = 5;
+    public static int index = 7;
     public static void main(String[] args) {
         switch (index) {
             case 0 -> InterleaveTest.run();
@@ -17,6 +18,7 @@ public class AllTest {
             case 4 -> MutexTest4.run();
             case 5 -> DekkerTest.run();
             case 6 -> SemaphoreTest1.run();
+            case 7 -> SemaphoreTest2.run();
         }
     }
 }
